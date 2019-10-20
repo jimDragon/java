@@ -13,6 +13,6 @@ public class HelloWorld_2 {
 
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
-        System.out.printlr("Hello, World _2");
+        System.out.println("Hello, World _2");
     }
 }

@@ -9,7 +9,10 @@
  *
  ******************************************************************************/
 
+public class HelloWorld_3 {
+
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
-        System.out.printlr("Hello, World _3");
+        System.out.println("Hello, World _3");
     }
+}

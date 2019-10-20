@@ -9,6 +9,6 @@ public class IntScanner {
         System.out.println("Πληκτρολογήστε ένα ακέραιο: ");
         int i1 = sc.nextInt();
         System.out.println("Πληκτρολογήσατε τον ακέραιο: "+i1);
-
+        
     }
 }
