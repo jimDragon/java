@@ -15,7 +15,7 @@ public class TemperatureConverter {
 
     // Modifier for Fahrenheit
     public void setFahrenheit(int f) {
-        this.celsius = (f-32)*(5/9);    // Conversion from F to C
+        this.celsius = (f-32)*5/9;    // Conversion from F to C
     }
 
     // Accessor for Celsius
@@ -41,10 +41,11 @@ public class TemperatureConverter {
         System.out.println("Enter a desired temperature");
         int temperature = sc.nextInt();
         TemperatureConverter temp = new TemperatureConverter(temperature);
-
+        temp.setFahrenheit(temperature);
+        
         // Output
-        System.out.println(temp.getFahrenheit());
-        System.out.println(temp.getCelsius());
+        // System.out.println(temp.getFahrenheit());
+        // System.out.println(temp.getCelsius());
         System.out.println(temp.toString());
     }
 }
